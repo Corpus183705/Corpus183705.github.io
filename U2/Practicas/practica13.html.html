@@ -1,0 +1,99 @@
+<!-- 
+unidad: Parcial 2
+Descripcion: Practica 13
+Fecha: 3 de abril del 2024
+-->
+<!DOCTYPE html>
+<HTml>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form class="form-horizontal">
+            <fieldset>
+            
+            <!-- Form Name -->
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Nombre">Nombre</label>  
+              <div class="col-md-6">
+              <input id="Nombre" name="Nombre" type="text" placeholder="" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Apellidos">Apellidos</label>  
+              <div class="col-md-6">
+              <input id="Apellidos" name="Apellidos" type="text" placeholder="" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Genero">Sexo</label>
+              <div class="col-md-4"> 
+                <label class="radio-inline" for="Genero-0">
+                  <input type="radio" name="Genero" id="Genero-0" value="Hombre" checked="checked">
+                  Hombre
+                </label> 
+                <label class="radio-inline" for="Genero-1">
+                  <input type="radio" name="Genero" id="Genero-1" value="Mujer">
+                  Mujer
+                </label> 
+                <label class="radio-inline" for="Genero-2">
+                  <input type="radio" name="Genero" id="Genero-2" value="No binario">
+                  No binario
+                </label>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Correo">Correo</label>  
+              <div class="col-md-6">
+              <input id="Correo" name="Correo" type="text" placeholder="" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Multiple Checkboxes -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="si"></label>
+              <div class="col-md-4">
+              <div class="checkbox">
+                <label for="si-0">
+                  <input type="checkbox" name="si" id="si-0" value="1">
+                  Deseo recibir información sobre novedades y ofertas
+                </label>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Multiple Checkboxes -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for=""></label>
+              <div class="col-md-4">
+              <div class="checkbox">
+                <label for="-0">
+                  <input type="checkbox" name="" id="-0" value="1">
+                  Declaro haber leido y acepto las condiciones generales del programa y la normativa sobre protección de datos.
+                </label>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="encio"></label>
+              <div class="col-md-4">
+                <button id="encio" name="encio" class="btn btn-default">Enviar</button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
+            
+    </body>
+</HTml>
