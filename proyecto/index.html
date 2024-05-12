@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>Programación Web I</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="style/bootstrap.min.css">
-    	<link rel="stylesheet" href="style/carrousel.css">
-    	<link rel="stylesheet" href="style/sitio.css">
-		<link rel="stylesheet" href="style/seccionclientes.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<script src="script/funciones.js"></script>
+<head>
+    <title>Programación Web I</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style\bootstrap.min.css">
+    <link rel="stylesheet" href="style\carrousel.css">
+    <link rel="stylesheet" href="style\sitio.css">
+    <link rel="stylesheet" href="style\seccionclientes.css">
+    <script src="script/carroucel.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between; /* Alinea los elementos en los extremos */
+            align-items: center; /* Centra verticalmente los elementos */
+            padding: 10px; /* Añade un poco de espacio alrededor */
+        }
+    </style>
+</head>
+    <body>
+        
+		<script src="script\funciones.js"></script>
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
 			<div class="navbar-header">
@@ -28,7 +38,7 @@
 				<li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">UPSLP<span class="caret"></span></a>
 				  <ul class="dropdown-menu" role="menu">
-			<li><a href="nuestra_uni.html" id="nuestra_uni" onclick="cargaPractica('nuestra_uni.html');return false;">NUESTRA UNIVERSIDAD</a></li>
+			<li><a href="nuestrau.html" id="NUESTRA_UNI" onclick="cargaPractica('nuestrau.html');return false;">NUESTRA UNIVERSIDAD</a></li>
           	<li class="divider"></li>
 			<li><a href="#" id="p1_12" onclick="cargaPractica('html/p1/ejercicio_1-2.html');return false;">MODELO ACAD&Eacute;MICO</a></li>
           <li class="divider"></li>
@@ -81,6 +91,18 @@
 			</div>
 		  </div>
 		</nav>
+        <header>
+            <div class="logo-container">
+                <img src="imgs/UPSLP (Logo) (1).jpg" height="70px" width="100px" alt="">
+            </div>
+            <div class="social-links" >
+                <a href="https://www.facebook.com/tupagina"><img src="imgs/facebook.png" height="30px" width="30px"  alt="Facebook"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/gorjeo.png" height="30px" width="30px" alt="Twitter"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/telegrama.png" height="30px" width="30px" alt="Twitter"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/youtube.png" height="30px" width="30px" alt="Twitter"></a>
+                <a href="https://twitter.com/tupagina"><img src="imgs/instagram.png" height="30px" width="30px" alt="Twitter"></a>
+            </div>
+        </header>
 		<div class="container-fluid text-center">    
 		  <div class="row content">
 			<div class="col-sm-2 sidenav">
@@ -99,15 +121,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="imgs/xd.jpg" alt="Slide 1">
+                    <img src="imgs\dssd.jpg" alt="Slide 1">
                 </div>
         
                 <div class="item">
-                    <img src="imgs/xd2.jpg" alt="Slide 2">
+                    <img src="imgs\xd2.jpg" alt="Slide 2">
                 </div>
         
                 <div class="item">
-                    <img src="imgs/dssd.jpg" alt="Slide 3">
+                    <img src="imgs\xd.jpg" alt="Slide 3">
                 </div>
             </div>
         
@@ -125,7 +147,7 @@
             <div class="people">
               <div class="group">
                   <div class="circle-image">
-                      <img src="imgs/aspirantes_3.jpg" alt="aspirantes">
+                      <img src="imgs\aspirantes_3.jpg" alt="aspirantes">
                   </div>
                 <h3>Aspirantes</h3>
                 <ul>
@@ -133,7 +155,7 @@
               </div>
               <div class="group">
                   <div class="circle-image">
-                      <img src="imgs/alumnos_3.jpg" alt="alumnos">
+                      <img src="imgs\alumnos_3.jpg" alt="alumnos">
                   </div>
                 <h3>Alumnos</h3>
                 <ul>
@@ -142,7 +164,7 @@
               </div>
               <div class="group">
                   <div class="circle-image">
-                      <img src="imgs/docentes_3.jpg" alt="docentes">
+                      <img src="imgs\docentes_3.jpg" alt="docentes">
                   </div>
                 <h3>Docentes</h3>
                 <ul>
@@ -151,7 +173,7 @@
               </div>
               <div class="group">
                   <div class="circle-image">
-                      <img src="imgs/administrativos_3n.png" alt="administrativos">
+                      <img src="imgs\administrativos_3n.png" alt="administrativos">
                   </div>
                 <h3>Administrativos</h3>
                 <ul>
@@ -172,5 +194,5 @@
 		  <p>183705 Cesar Aaron Corpus Galarza</p>
 		  <p>Ingeniería en Tecnologias de la Informacion</p>
 		</footer>
-	</body>
+</body>
 </html>
