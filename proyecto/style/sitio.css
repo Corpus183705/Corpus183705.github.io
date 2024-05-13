@@ -3,9 +3,7 @@
   margin-bottom: 0;
   border-radius: 0;
 }
-.yellow-subtitle {
-  color: #e77817; /* Color azul */
-}
+
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 100%}
 
@@ -39,7 +37,7 @@ footer {
 }
 .header_blue {
   text-align: center; /* Centra el texto horizontalmente */
-  color: blue; /* Color azul */
+  color:  #082251; /* Color azul */
 }
 .center-image {
   display: block; /* Para que el margen funcione correctamente */
@@ -48,7 +46,10 @@ footer {
   max-width: 800px; /* Establece un ancho máximo para la imagen */
 }
 .blue-subtitle {
-  color: blue; /* Color azul */
+  color:#082251; /* Color azul */
+}
+.correo_ama {
+  color: #e77817; /* Color azul */
 }
 .two-column-container {
   display: flex;
@@ -75,4 +76,5 @@ footer {
 .two-column-list li {
   margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
 }
+
 
